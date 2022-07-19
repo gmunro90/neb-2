@@ -1,0 +1,37 @@
+body {
+  background: #e5e5e5;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.wrap {
+  width: 95%;
+  display: flex;
+}
+
+.toolbar {
+  width: 28vw;
+  margin: 12px 0;
+}
+
+h6 {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.bar-chart, .line-chart, .pie-chart {
+  height: 40vh;
+  width: 65vw;
+  padding: 20px;
+}
+
+.table {
+  height: 30vh;
+  width: 28vw;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */

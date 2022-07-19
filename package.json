@@ -12,8 +12,7 @@
   "scripts": {
     "dev": "parcel src/index.html --open --no-hmr",
     "build": "parcel build src/index.html --dist-dir ./dist",
-    "start": "node index",
-    "heroku-postbuild": "parcel build src/index.html --dist-dir ./dist"
+    "start": "node index"
   },
   "dependencies": {
     "@nebula.js/sn-bar-chart": "^0.8.24",
