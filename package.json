@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "dev": "parcel src/index.html --open --no-hmr",
-    "build": "parcel build src/index.html --dist-dir ./dist",
+    "test": "parcel build src/index.html --dist-dir ./dist",
     "start": "node index"
   },
   "dependencies": {
