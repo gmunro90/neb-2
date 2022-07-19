@@ -1,9 +1,8 @@
 {
-  "name": "nebulamashup",
-  "version": "0.0.1",
-  "author": {
-    "name": "greg munro",
-    "email": "greg@websy.io"
+  "name": "greg-mashup",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
   },
   "keywords": [
     "qlik",
