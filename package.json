@@ -2,15 +2,18 @@
   "name": "greg-mashup",
   "version": "1.0.0",
   "engines": {
-    "node": "12.x"
+    "node": "12.x",
+    "npm": "6.x"
   },
   "keywords": [
     "qlik",
     "nebula"
   ],
   "scripts": {
-    "start": "parcel src/index.html --open --no-hmr",
-    "build": "parcel build src/index.html --dist-dir ./dist"
+    "dev": "parcel src/index.html --open --no-hmr",
+    "build": "parcel build src/index.html --dist-dir ./dist",
+    "start": "node index",
+    "heroku-postbuild": "parcel build src/index.html --dist-dir ./dist"
   },
   "dependencies": {
     "@nebula.js/sn-bar-chart": "^0.8.24",
@@ -19,6 +22,7 @@
     "@nebula.js/sn-table": "^1.14.0",
     "@nebula.js/stardust": "^3.0.0-alpha6",
     "enigma.js": "^2.6.3",
+    "express": "^4.18.1",
     "parcel": "^2.3.2"
   },
   "devDependencies": {
