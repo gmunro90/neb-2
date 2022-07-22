@@ -1,4 +1,5 @@
 /* eslint-disable */
+
 import embed from './configure';
 import connect from './connect';
 
@@ -69,6 +70,10 @@ async function run() {
                 index: -1,
                 color: '#ffffff',
               },
+              element: document.createElement('button').html('export')
+              .bind('click', function () {
+                exportData({fileType: 'OOXML', download: true})
+              }),
             },
           },
         ],
